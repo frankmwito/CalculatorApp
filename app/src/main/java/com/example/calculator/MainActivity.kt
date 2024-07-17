@@ -91,17 +91,25 @@ fun  HomeScreenUi() {
                 .fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "(")
             }
 
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = ")")
             }
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "%")
             }
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "AC")
             }
 
@@ -117,13 +125,19 @@ fun  HomeScreenUi() {
                 Text(text = "7")
             }
 
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "8")
             }
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "9")
             }
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "/")
             }
 
@@ -133,17 +147,25 @@ fun  HomeScreenUi() {
                 .fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "4")
             }
 
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "5")
             }
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "6")
             }
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "*")
             }
 
@@ -153,17 +175,25 @@ fun  HomeScreenUi() {
                 .fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "1")
             }
 
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "2")
             }
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "3")
             }
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "-")
             }
 
@@ -173,17 +203,25 @@ fun  HomeScreenUi() {
                 .fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "0")
             }
 
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = ".")
             }
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "=")
             }
-            Button(onClick = { /*TODO*/ }) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
                 Text(text = "+")
             }
 
