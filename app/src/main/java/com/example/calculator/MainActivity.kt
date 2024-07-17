@@ -51,6 +51,7 @@ fun HomeScreen( modifier: Modifier = Modifier) {
                 .background(color = MaterialTheme.colorScheme.background)
                 .clip(MaterialTheme.shapes.medium)
         ) {
+                TextField(value = , onValueChange = )
 
         }
     }
