@@ -20,6 +20,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonColors
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardElevation
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -62,6 +64,14 @@ fun HomeScreen( modifier: Modifier = Modifier) {
                 TopAppBar(title = { /*TODO*/ })
             },
             content = { paddingValues ->  paddingValues
+                Card(
+                    modifier = Modifier.padding(8.dp)
+                        .fillMaxWidth()
+                        .background(MaterialTheme.colorScheme.background),
+                    shape = MaterialTheme.shapes.medium,
+                ) {
+
+                }
                Column(
                    modifier = Modifier
                        .fillMaxSize()
@@ -87,7 +97,8 @@ fun  HomeScreenUi() {
             .padding(8.dp),
     ) {
         Row(
-            modifier = Modifier.padding(8.dp)
+            modifier = Modifier
+                .padding(8.dp)
                 .fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
@@ -115,7 +126,8 @@ fun  HomeScreenUi() {
 
         }
         Row(
-            modifier = Modifier.padding(8.dp)
+            modifier = Modifier
+                .padding(8.dp)
                 .fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
@@ -143,7 +155,8 @@ fun  HomeScreenUi() {
 
         }
         Row(
-            modifier = Modifier.padding(8.dp)
+            modifier = Modifier
+                .padding(8.dp)
                 .fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
@@ -171,7 +184,8 @@ fun  HomeScreenUi() {
 
         }
         Row(
-            modifier = Modifier.padding(8.dp)
+            modifier = Modifier
+                .padding(8.dp)
                 .fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
@@ -199,7 +213,8 @@ fun  HomeScreenUi() {
 
         }
         Row(
-            modifier = Modifier.padding(8.dp)
+            modifier = Modifier
+                .padding(8.dp)
                 .fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
