@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -21,9 +22,11 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonColors
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CardElevation
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedCard
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
@@ -64,11 +67,19 @@ fun HomeScreen( modifier: Modifier = Modifier) {
                 TopAppBar(title = { /*TODO*/ })
             },
             content = { paddingValues ->  paddingValues
-                Card(
-                    modifier = Modifier.padding(8.dp)
-                        .fillMaxWidth()
-                        .background(MaterialTheme.colorScheme.background),
+                OutlinedCard(
+                    colors = CardDefaults.cardColors(
+                        containerColor = MaterialTheme.colorScheme.surface,
+                    ),
+                    elevation = CardDefaults.cardElevation(
+                        defaultElevation = 10.dp
+                    ),
+                    border = BorderStroke(1.dp, color = MaterialTheme.colorScheme.outline),
+                    modifier = Modifier
+                        .padding(8.dp)
+                        .fillMaxWidth(),
                     shape = MaterialTheme.shapes.medium,
+
                 ) {
 
                 }
