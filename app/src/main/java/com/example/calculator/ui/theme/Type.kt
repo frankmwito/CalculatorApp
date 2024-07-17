@@ -37,6 +37,6 @@ val Typography = Typography(
 )
 val Shapes = Shapes(
     small = RoundedCornerShape(50), // This makes the button round
-    medium = RoundedCornerShape(4.dp), // This is a rectangular shape with 4.dp rounded corners
+    medium = RoundedCornerShape(8.dp), // This is a rectangular shape with 8.dp rounded corners
     large = RoundedCornerShape(0.dp) // This is a rectangular shape with no rounded corners
 )
