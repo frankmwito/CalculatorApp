@@ -92,17 +92,79 @@ fun  HomeScreenUi() {
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
+                Text(text = "(")
             }
 
             Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
+                Text(text = ")")
             }
             Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
+                Text(text = "%")
             }
             Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
+                Text(text = "AC")
+            }
+
+        }
+        Row(
+            modifier = Modifier.padding(8.dp)
+                .fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Button(
+                shape = MaterialTheme.shapes.medium,
+                onClick = { /*TODO*/ }) {
+                Text(text = "7")
+            }
+
+            Button(onClick = { /*TODO*/ }) {
+                Text(text = "8")
+            }
+            Button(onClick = { /*TODO*/ }) {
+                Text(text = "9")
+            }
+            Button(onClick = { /*TODO*/ }) {
+                Text(text = "/")
+            }
+
+        }
+        Row(
+            modifier = Modifier.padding(8.dp)
+                .fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Button(onClick = { /*TODO*/ }) {
+                Text(text = "4")
+            }
+
+            Button(onClick = { /*TODO*/ }) {
+                Text(text = "5")
+            }
+            Button(onClick = { /*TODO*/ }) {
+                Text(text = "6")
+            }
+            Button(onClick = { /*TODO*/ }) {
+                Text(text = "*")
+            }
+
+        }
+        Row(
+            modifier = Modifier.padding(8.dp)
+                .fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Button(onClick = { /*TODO*/ }) {
+                Text(text = "1")
+            }
+
+            Button(onClick = { /*TODO*/ }) {
+                Text(text = "2")
+            }
+            Button(onClick = { /*TODO*/ }) {
+                Text(text = "3")
+            }
+            Button(onClick = { /*TODO*/ }) {
+                Text(text = "-")
             }
 
         }
@@ -116,73 +178,13 @@ fun  HomeScreenUi() {
             }
 
             Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
+                Text(text = ".")
             }
             Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
+                Text(text = "=")
             }
             Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
-            }
-
-        }
-        Row(
-            modifier = Modifier.padding(8.dp)
-                .fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween
-        ) {
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
-            }
-
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
-            }
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
-            }
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
-            }
-
-        }
-        Row(
-            modifier = Modifier.padding(8.dp)
-                .fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween
-        ) {
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
-            }
-
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
-            }
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
-            }
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
-            }
-
-        }
-        Row(
-            modifier = Modifier.padding(8.dp)
-                .fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween
-        ) {
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
-            }
-
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
-            }
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
-            }
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "0")
+                Text(text = "+")
             }
 
         }
