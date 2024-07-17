@@ -67,6 +67,7 @@ fun HomeScreen( modifier: Modifier = Modifier) {
                 TopAppBar(title = { /*TODO*/ })
             },
             content = { paddingValues ->  paddingValues
+                //The outlinedCard does not show
                 OutlinedCard(
                     colors = CardDefaults.cardColors(
                         containerColor = MaterialTheme.colorScheme.surface,
@@ -81,7 +82,7 @@ fun HomeScreen( modifier: Modifier = Modifier) {
                     shape = MaterialTheme.shapes.medium,
 
                 ) {
-
+                    // The text field and the History Icon will go inside here
                 }
                Column(
                    modifier = Modifier
@@ -99,7 +100,7 @@ fun HomeScreen( modifier: Modifier = Modifier) {
 
 
 
-
+//123 Buttons UI
 @Composable
 fun  HomeScreenUi() {
     Column(
